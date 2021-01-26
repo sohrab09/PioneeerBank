@@ -1,29 +1,37 @@
 body{
     padding: 100px;
+    font-family: 'Bree Serif', serif;
 }
 .submit-area{
     margin-top: 50px;
     padding: 40px;
-    border-radius: 10px;
     box-shadow: 5px 5px 30px rgb(78, 177, 139);
+    border-radius: 10px;
+}
+h1{
+    font-size: 60px;
+    color: rgb(61, 119, 3);
+    background-color: rgb(247, 247, 247);
+    box-shadow: 5px 5px 20px rgb(210, 221, 253);
+    border-radius: 25px;
 }
 #transaction-area{
     display: none;
 }
 .status{
     margin: 0 20px;
-    color: white;
+    color: rgb(250, 233, 233);
     text-align: center;
     padding: 10px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgb(185, 212, 120);
+    box-shadow: 5px 5px 15px rgb(13, 139, 76)
 }
 .deposit{
-    background-color: brown;
+    background-color: rgb(124, 36, 206);
 }
 .withdraw{
-    background-color: lightsalmon;
+    background-color: rgb(194, 102, 37);
 }
 .balance{
-    background-color: orange;
+    background-color: rgb(187, 36, 66);
 }
